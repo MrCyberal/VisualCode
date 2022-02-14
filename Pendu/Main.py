@@ -69,7 +69,7 @@ while (nb_essai < nb_chances) and (nb_lettres_trouvees <= Longueur_mot):
             if lettre == choix_lettre :
                 nb_lettres_trouvees += 1
                 lettres_trouvees[position] = choix_lettre
-        convert_lettres_trouvees = " ".join(lettres_trouvees)  # converti la liste en chaine de caractere    
+        convert_lettres_trouvees = "".join(lettres_trouvees)  # converti la liste en chaine de caractere    
         print(convert_lettres_trouvees)     
         print("lettre essayez", " ".join(lettres_essayer)) # affiche les lettres essayer
     else :
