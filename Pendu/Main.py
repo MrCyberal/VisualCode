@@ -38,6 +38,7 @@ liste_mots = [
 # on prend un mots de la liste de maniere aleatoire
 mot_a_trouver = random.choice(liste_mots)
 # on initialise nos variables
+lettres_essayer = []
 lettres_trouvees = []
 mot_trouve = ""
 nb_chances = 8
@@ -48,13 +49,15 @@ x=0
 print("le mot a trouver : ", Longueur_mot*"*")
  
 lettres_trouvees = ["*"] * Longueur_mot
-convert_lettres_trouvees = " ".join(lettres_trouvees)
+convert_lettres_trouvees = " ".join(lettres_trouvees) # converti la liste en chaine de caractere
 
 while (nb_essai < nb_chances) and (nb_lettres_trouvees <= Longueur_mot):
 
     print("choix de la lettre")
-    choix_lettre= input("--->>>")
-
+    choix_lettre = input("--->>>")
+    
+    lettres_essayer.append(choix_lettre) # ajoute a la liste les lettres essayer
+    
     if choix_lettre in lettres_trouvees :
 
         print(" lettre deja choisie")
@@ -68,14 +71,15 @@ while (nb_essai < nb_chances) and (nb_lettres_trouvees <= Longueur_mot):
             if lettre == choix_lettre :
                 nb_lettres_trouvees += 1
                 lettres_trouvees[position] = choix_lettre
-        convert_lettres_trouvees = " ".join(lettres_trouvees)      
+        convert_lettres_trouvees = " ".join(lettres_trouvees)  # converti la liste en chaine de caractere    
         print(convert_lettres_trouvees)     
-    
+        print("lettre essayez", " ".join(lettres_essayer)) # affiche les lettres essayer
     else :
         graph_pendu(nb_essai)
         nb_essai+=1
         print(convert_lettres_trouvees)
-       
+        print("lettre essayez", " ".join(lettres_essayer))
+        
 if (nb_lettres_trouvees <= Longueur_mot)== False:
 
     print(" Vous avez trouve!!")
