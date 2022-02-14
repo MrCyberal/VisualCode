@@ -62,8 +62,6 @@ while (nb_essai < nb_chances) and (nb_lettres_trouvees <= Longueur_mot):
 
         print(" lettre deja choisie")
 
-
-
     elif choix_lettre in mot_a_trouver :
         
         for position, lettre in enumerate(mot_a_trouver) :
