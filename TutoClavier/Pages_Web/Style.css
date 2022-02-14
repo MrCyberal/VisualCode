@@ -524,5 +524,57 @@ p, h2
         letter-spacing: normal;
         word-spacing: normal;
         border: 2px solid black;
+        
     }
 
+.div-pos-4
+    {
+        background-color: rgb(161, 124, 173);
+        color: #000000;
+        font-size: 20px;
+        line-height: normal;
+        letter-spacing: normal;
+        word-spacing: normal;
+        border: 2px solid black;
+        float: right;
+        clear: both;
+    }
+.div-pos-5
+    {
+        background-color: rgb(161, 124, 173);
+        color: #000000;
+        font-size: 20px;
+        line-height: normal;
+        letter-spacing: normal;
+        word-spacing: normal;
+        border: 2px solid black;
+        float: left;
+        clear: right;
+        margin-top: 25px;
+    }
+.div-pos-6
+    {
+        background-color: rgb(161, 124, 173);
+        color: #000000;
+        font-size: 20px;
+        line-height: normal;
+        letter-spacing: normal;
+        word-spacing: normal;
+        border: 2px solid black;
+        float: right;
+        margin-top: 25px;
+        
+    }
+
+.div-pos-7
+    {
+        background-color: rgb(161, 124, 173);
+        color: #000000;
+        font-size: 20px;
+        line-height: normal;
+        letter-spacing: normal;
+        word-spacing: normal;
+        border: 2px solid black;
+        margin-top: 25px;
+        
+    }
