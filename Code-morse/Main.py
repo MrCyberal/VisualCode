@@ -1,5 +1,5 @@
 import Morse
-resultat = ""
+ # resultat = ""
 choix = "4"
 while choix != "0" :
     resultat = ""
@@ -15,7 +15,7 @@ while choix != "0" :
 
         texte = input("Entrez le texte à convertir : ")
 
-        for c in texte :
+        for c in texte.lower() :
             index = Morse.alphabet_list.index(c)
             code = Morse.morse_list[index]
             resultat += code + " "
@@ -33,6 +33,6 @@ while choix != "0" :
             
         print(resultat)
   
-    elif choix > "2" :
+    else :
 
         print("Autre choix !!")
