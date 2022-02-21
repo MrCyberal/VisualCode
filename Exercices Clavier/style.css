@@ -1,0 +1,144 @@
+.lesson{
+    position: absolute;
+    background-color: rgba(58, 66, 109, 0.658);
+    padding: 10px;
+    border: 10px solid #b1bac2; 
+    border-radius: 4px;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%);
+    top:25%;
+    
+
+}
+
+
+.bouton{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    color: beige;
+    position: relative;
+    left: 10px;
+    background: #095aa7;
+    border: #b1bac2 4px solid;
+    box-shadow: black 2px 2px 1px 1px;
+}
+
+h1{
+
+    text-align: center;
+}
+.cadreExercice{
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+    top: 50%;
+    border:rgba(58, 66, 109, 0.658) solid 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    background: #b1bac2;
+    visibility: visible;
+}
+#textIn {
+    display: inline;
+    /*border:rgba(245, 245, 248, 0.658) solid 2px;*/
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 17px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.textIn{
+    padding-left: 6px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.textCheck{
+
+    display: inline;
+    /*border:rgba(58, 66, 109, 0.658) solid 2px;*/
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#textCheck{
+    display: inline;
+    font-size: 16px;
+    width: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+}
+
+#boutonVerif{
+    display: inline;
+  
+}
+
+.exerciceFini{
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border:rgba(58, 66, 109, 0.658) solid 5 px;
+    border-radius: 15px;
+    width: 650px;
+    height: 350px;
+    background-color: #095aa7;
+    visibility: visible;
+}
+
+.bravo{
+    display: block;
+    width: 550px;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    color: antiquewhite;
+    font-size: 50px;
+    overflow: hidden;
+
+}
+
+.retourMenu{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    background-color: rgba(150, 56, 56, 0.747);
+
+
+}
+
+.show{
+    visibility: visible;
+}
+
+.hidden{
+    visibility: hidden;
+}
