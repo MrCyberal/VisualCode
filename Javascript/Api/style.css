@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+body{
+
+    overflow: hidden;
+    height: 100px;
+}
+
+#quote{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 2rem;
+        background: black;
+        font-size: 2rem;
+        border-radius: 10px;
+        transition: .5s;
+        color: white;
+        cursor: pointer;
+}
+#auteur{
+
+        position:absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 2rem;
+        background: black;
+        font-size: 2rem;
+        border-radius: 10px;
+        transition: .5s;
+        color: white;
+        cursor: pointer;
+}

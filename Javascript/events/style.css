@@ -1,0 +1,63 @@
+*{
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    transition: 0.5s;
+}
+
+img {
+    margin: 0 auto;
+    height: 600px;
+    visibility: hidden;
+  
+}
+.show {
+    visibility: visible;
+}
+.mouseEvent{
+    border: 6px solid salmon;
+    width: 220px;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.themeContainer{
+    position: fixed;
+    top: 0;
+}
+
+.theme{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#dark{
+    background:black;
+}
+#salmon{
+    background:salmon;
+}
+#yellow{
+    background:yellow;
+}
+.darkTheme{
+    background: black;
+    color: white;
+
+}
+.salmonTheme{
+    background: salmon;
+    color: white;
+
+}
+.yellowTheme{
+    background: yellow;
+    color: white;
+
+}

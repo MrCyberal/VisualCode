@@ -16,12 +16,18 @@ let cpt=0;
         document.location.assign="http://127.0.0.1:5500/Exercices%20Clavier/index.html";
 
     })*/
+textaChecker.value = "";
 
+cadreExercice.style.display = "inline";
 
 textaTaper.innerHTML = lesson1[0];
 
 BoutonVerif.addEventListener('click', compareText);
+boutonMenu.addEventListener('click', () => {
 
+            document.location.assign("http://127.0.0.1:5500/Exercices%20Clavier/index.html");
+
+        }); 
 
 function compareText() {
     
@@ -54,8 +60,12 @@ function InjectionText(cpt) {
     } else {
         
         console.log("c'est fini");
+        cadreExercice.style.display = "none";
+        exerciceFini.style.display = "inline";
+
         
-        window.location.replace="http://127.0.0.1:5500/Exercices%20Clavier/bravo.html";
+        
+        
         
             
      
