@@ -1,0 +1,48 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "godot-quickjs",
+            "request": "launch",
+            "name": "Launch Godot",
+            "program": "/path/to/qjs"
+        },
+    {
+        "type": "godot-quickjs",
+        "request": "attach",
+        "name": "Attach to Godot",
+        "program": "${workspaceFolder}\\Exercices Clavier\\main.js",
+        "hostname": "localhost",
+        "port": 5500
+    },
+        {
+            "name": "IoT.js: Launch",
+            "type": "iotjs",
+            "request": "launch",
+            "program": "iotjs",
+            "stopOnEntry": false,
+            "localRoot": "${workspaceRoot}",
+            "tizenStudioPath": "",
+            "IoTjsPath": "",
+            "port": 5500,
+            "address": "localhost",
+            "debugLog": 0,
+            "args": [
+                "--start-debug-server",
+                "--debugger-wait-source"
+            ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Exercices Clavier\\main.js"
+        }
+    ]
+}

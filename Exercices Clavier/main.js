@@ -1,7 +1,8 @@
 let lesson1 = ["Partir en vacance","des voitures","il est tard"] //,"un parapluie","prendre et donner","une histoire courte","je ne suis pas malade","l'information est fausse"]
 let lesson2 = ["179/83","123*34.90","7294+2309"];
 let text="";
-const textaChecker = document.getElementById("textCheck");
+let lesson ="lesson";
+const textaChecker = document.querySelector("#textCheck");
 const textaTaper = document.querySelector(".textIn");
 const BoutonVerif = document.querySelector("#boutonVerif");
 const cadreExercice = document.querySelector(".cadreExercice");
@@ -9,12 +10,22 @@ const exerciceFini = document.querySelector(".exerciceFini");
 const boutonMenu = document.querySelector(".retourMenu");
 let cpt=0;
 
-    
+let valStore= localStorage.getItem('btn');
+
+alert("btn" + " - " + lesson.concat(valStore));
+
+
+lesson = lesson.concat(valStore);
+
+
 textaChecker.value = "";
 
-cadreExercice.style.display = "inline";
+//cadreExercice.style.display = "inline";
 
-textaTaper.innerHTML = lesson1[0];
+textaTaper.innerHTML = lesson[cpt];
+
+
+//alert(textaTaper)
 
 BoutonVerif.addEventListener('click', compareText);
 boutonMenu.addEventListener('click', () => {
@@ -25,7 +36,7 @@ boutonMenu.addEventListener('click', () => {
 
 function compareText() {
     
-    if (lesson1[cpt] == text) {
+    if (btn == text) {
         
         cpt = cpt + 1;
         InjectionText(cpt);
@@ -47,8 +58,8 @@ textaChecker.addEventListener('input', (e) => {
 
 function InjectionText(cpt) {
 
-    if (cpt < lesson1.length) {
-        textaTaper.innerHTML = lesson1[cpt];
+    if (cpt < btn.length) {
+        textaTaper.innerHTML = btn;
         textaChecker.value=null;
 
     } else {
