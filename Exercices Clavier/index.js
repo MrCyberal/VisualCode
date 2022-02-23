@@ -8,12 +8,12 @@ for (var i = 0; i < boutonsCpt; i += 1) {
 
     boutons[i].onclick = function(e) {
 
-        let idbouton = e.target.id
+       
         localStorage.setItem('btn',this.id );
-
+alert(this.id);
         document.location.assign("Exercice1.html")
     
 
-//alert(this.id);
+
 
 }}
