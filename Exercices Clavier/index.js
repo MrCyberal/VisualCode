@@ -10,8 +10,8 @@ for (var i = 0; i < boutonsCpt; i += 1) {
 
        
         localStorage.setItem('btn',this.id );
-alert(this.id);
-        document.location.assign("Exercice1.html")
+
+        document.location.assign("./Exercices.html")
     
 
 
