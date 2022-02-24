@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .lesson{
     position: absolute;
     background-color: rgba(58, 66, 109, 0.658);
@@ -142,16 +141,5 @@ h1{
 
 .hidden{
     visibility: hidden;
-=======
-lesson{
 
-    border-radius: 10px;
-    text-align: center;
-    
-}
-bouton1{
-
-    width: 250px;
-    padding: 20px;
->>>>>>> Stashed changes
 }
