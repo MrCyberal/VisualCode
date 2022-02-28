@@ -1,5 +1,5 @@
 let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","prendre et donner","une histoire courte","je ne suis pas malade","l'information est fausse"],
-              ["179/83","123*34.90","7294+2309","Un œuf"],
+              ["179/83","123*34.90","7294+2309","1023.3-985.20","10255*96.33-8","751+654*59","4376.91/23.2","1385+12.36-9","72006952+253916","9836120/895.64","1956.36*21.42"],
               ["Manon","La victoire","Fred Dino","Xenomorphe","Louis Pasteur","Je Mets Une Majuscule"],
               ["Le point d'exclamation: !","Le point d'interrogation: ?","La barre oblique: /","Le point: .","La virgule: ,","Le point virgule: ;","l'apostrophe: '",'Le guillement"',
                "Le trait-union: -"],
@@ -18,9 +18,9 @@ const BoutonVerif = document.querySelector("#boutonVerif");
 const cadreExercice = document.querySelector(".cadreExercice");
 const exerciceFini = document.querySelector(".exerciceFini");
 const boutonMenu = document.querySelector(".retourMenu");
-let cpt=0;
-let cptarray=0;
-let valStore= localStorage.getItem('btn');
+let cpt = 0;
+let cptarray = 0;
+let valStore = localStorage.getItem('btn');
 let text="";
 
 
