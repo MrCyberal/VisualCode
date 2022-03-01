@@ -52,7 +52,7 @@ h1{
     background: #b1bac2;
     
 }
-#textIn {
+#textIn #timer {
     display: inline;
     /*border:rgba(245, 245, 248, 0.658) solid 2px;*/
     margin: 5px;
@@ -63,7 +63,7 @@ h1{
 
 }
 
-.textIn{
+.textIn {
     padding-left: 6px;
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -132,14 +132,5 @@ h1{
     color: blanchedalmond;
     background-color: rgba(150, 56, 56, 0.747);
 
-
-}
-
-.show{
-    visibility: visible;
-}
-
-.hidden{
-    visibility: hidden;
 
 }

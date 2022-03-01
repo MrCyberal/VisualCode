@@ -8,7 +8,7 @@ let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","
               ["Un amas d'étoile","La fête à l'école","Noël et anaïs","Le garçon médisant","l'épée émousée","L'après-midi à Paris","Il écrit à la famille","Je suis là-bas !"],
               ["Le diése ou hashtag: #","l'arobase ou at: @","Les parenthèses: ()","Les crochets: []","Les accolades: {}","La barre oblique inverse ou backslash: \\","Le tilde: ~",
                "La verticale: |"],
-              ["Le http:// n'a plus besoin d'être tapé dans un navigateur internet","L'adresse mail de Jean-Pierre est jp.duhon1962@mail.fr",]
+              ["Le 'http://' n'a plus besoin d'être tapé dans un navigateur internet","L'adresse mail de Jean-Pierre est jp.duhon1962@mail.fr",]
             ];
 
 
@@ -18,10 +18,16 @@ const BoutonVerif = document.querySelector("#boutonVerif");
 const cadreExercice = document.querySelector(".cadreExercice");
 const exerciceFini = document.querySelector(".exerciceFini");
 const boutonMenu = document.querySelector(".retourMenu");
+const textNbrMot = document.querySelector("#nbrMot");
+const TextTimer = document.querySelector("#timer");
+
 let cpt = 0;
 let cptarray = 0;
 let valStore = localStorage.getItem('btn');
 let text="";
+let min = 0;
+let sec = 0;
+let dur = 480;
 
 
 
@@ -31,12 +37,12 @@ function choixExo(valStore) {
     switch(valStore){
 
         case "lesson1" :
-
+            CompteRebour();
             return cptarray = 0;
         break;
     
         case "lesson2" :
-
+            CompteRebour();
             return cptarray = 1;
         break;
     
@@ -97,15 +103,40 @@ function InjectionText(cpt) {
         console.log("c'est fini");
         cadreExercice.style.display = "none";
         exerciceFini.style.display = "inline";
-
-        
-        
-        
-        
-            
-     
+          
     }
     
+}
+
+function AjoutZero(num){
+
+    return num < 10 ? "0" + num : num; 
+    
+
+}
+
+function CompteRebour() {
+
+    let secondEcouler = dur;
+
+    let rebour = setInterval(function () {
+
+        min = parseInt(secondEcouler / 60);
+        sec = parseInt(secondEcouler % 60);
+
+        TextTimer.textContent = `${AjoutZero(min)}:${AjoutZero(sec)}`;
+
+        secondEcouler = secondEcouler - 1;
+        if (secondEcouler < 0) { 
+            clearInterval(rebour);
+            alert("Le temp est écoulé !!");
+            cpt=0;
+            CompteRebour()
+        };
+
+    }, 1000);
+
+
 }
 
 
