@@ -3,7 +3,7 @@ let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","
               ["Manon","La victoire","Fred Dino","Xenomorphe","Louis Pasteur","Je Mets Une Majuscule"],
               ["Le point d'exclamation: !","Le point d'interrogation: ?","La barre oblique: /","Le point: .","La virgule: ,","Le point virgule: ;","L'apostrophe: '",'Le guillement: "',
                "Le trait-union: -"],
-              ["Le 'e' accent aigu: é","Le 'e' accent grave: è","Le 'e' accent circonflexe: ê","Le tréma sur le 'e': ë","LE 'œ' s'obtient grâce à Alt + 0156","Un œuf"]
+              ["Le 'e' accent aigu: é","Le 'e' accent grave: è","Le 'e' accent circonflexe: ê","Le tréma sur le 'e': ë","LE 'œ' s'obtient grâce à Alt + 0156","Un œuf"],
               ["La lumière","L'obscurité","Des réactions inouïes","Une leçon","Un reçu","La fête","Une bête","Le théâtre","Un château","Affûter son esprit"],
               ["Un amas d'étoile","La fête à l'école","Noël et anaïs","Le garçon médisant","L'épée émousée","L'après-midi à Paris","Il écrit à la famille","Je suis là-bas !"],
               ["Le diése ou hashtag: #","L'arobase ou at: @","Les parenthèses: ()","Les crochets: []","Les accolades: {}","La barre oblique inverse ou backslash: \\","Le tilde: ~",
