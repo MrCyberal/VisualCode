@@ -10,7 +10,7 @@ let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","
                "La verticale: |"],
               ["Le 'http://' n'a plus besoin d'être tapé dans un navigateur internet","L'adresse mail de Jean-Pierre est jp.duhon1962@mail.op"],
               ["Les oximores ou oximorons","Un silence assourdissant","Briller dans l'ombre","Une absence remarquable","Un illustre inconnu","Une obscure clarté","La voix du silence"],
-              ["Les pléonasmes","Monter en haut","Crier fort","Je l'ai vu de mes propres yeux","Petit détail","Prévoir à l'avance","Marcher à pied","Se réunir ensemble","Descendre en bas","Un bref résumé","Reporter à une date ultérieure","Inscessament sous peu"],
+              ["Les pléonasmes","Monter en haut","Crier fort","Je l'ai vu de mes propres yeux","Petit détail","Prévoir à l'avance","Marcher à pied","Se réunir ensemble","Descendre en bas","Un bref résumé","Reporter à une date ultérieure","Incessament sous peu"],
             ];
 
 
