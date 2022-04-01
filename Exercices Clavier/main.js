@@ -5,7 +5,7 @@ let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","
                "Le trait-union: -","Attention !!","Pourquoi ?","Quelle heure est-il ?"],
               ["Le 'e' accent aigu: é","Le 'e' accent grave: è","Le 'e' accent circonflexe: ê","Le tréma sur le 'e': ë","Le 'œ' s'obtient grâce à Alt + 0156","Un œuf"],
               ["La lumière","L'obscurité","Des réactions inouïes","Une leçon","Un reçu","La fête","Une bête","Le théâtre","Un château","Affûter son esprit","Le maçon rénove la façade","Xavier aime les glaçons","Un commerçant soupçonneux","La piqûre de la guêpe"],
-              ["Un amas d'étoile","La fête à l'école","Noël et Anaïs","Le garçon médisant","L'épée émoussée","L'après-midi à Paris","Il écrit à la famille","Je suis là-bas !","Le voilà, déjà à l'abri", ],
+              ["Un amas d'étoile","La fête à l'école","Noël et Anaïs","Le garçon médisant","L'épée émoussée","L'après-midi à Paris","Il écrit à la famille","Je suis là-bas !","Le voilà, déjà à l'abri"],
               ["Le diése ou hashtag: #","L'arobase ou at: @","Les parenthèses: ( )","Les crochets: [ ]","Les accolades: { }","La barre oblique inverse ou backslash: \\","Le tilde: ~",
                "La verticale: |"],
               ["Le 'http://' n'a plus besoin d'être tapé dans un navigateur internet","L'adresse mail de Jean-Pierre est jp.duhon1962@mail.op"],
