@@ -76,6 +76,14 @@ function choixExo(valStore) {
         case "lesson8" :
             CompteRebour();
             return cptarray = 7;
+        
+        case "lesson9" :
+            CompteRebour();
+            return cptarray = 8;
+        
+        case "lesson10" :
+            CompteRebour();
+            return cptarray = 9;
         default:
             null;
 
