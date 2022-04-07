@@ -1,7 +1,7 @@
 let lesson = [["partir en vacance","des voitures","il est tard","un parapluie","prendre et donner","une histoire courte","je ne suis pas malade","l'information est fausse"],
               ["179/83","123*34.90","7294+2309","1023.3-985.20","10255*96.33-8","751+654*59","4376.91/23.2","1385+12.36-9","72006952+253916","9836120/895.64","1956.36*21.42","8564*2564","12.36*98.20","1249-63.23","95360+64823.95","852318*96475","2054.3256+6598.12487","6235/54","653295.25*13985.45"],
               ["Manon","La victoire","Fred Dino","Xenomorphe","Louis Pasteur","Je Mets Une Majuscule","David Foreman","Xian Li","Frank Herbert","Isaac Azimov","Pierre Richard","Estelle et Sidonie","Joël Proust","Adolph Sax","Michel Legrand"],
-              ["Le point d'exclamation: !","Le point d'interrogation: ?","La barre oblique: /","Le point: .","La virgule: ,","Le point virgule: ;","L'apostrophe: '",'Le guillement: "',
+              ["Le point d'exclamation: !","Le point d'interrogation: ?","La barre oblique: /","Le point: .","La virgule: ,","Le point virgule: ;","L'apostrophe: '",'Le guillemet: "',
                "Le trait-union: -","Attention !!","Pourquoi ?","Quelle heure est-il ?"],
               ["Le 'e' accent aigu: é","Le 'e' accent grave: è","Le 'e' accent circonflexe: ê","Le tréma sur le 'e': ë","Le 'œ' s'obtient grâce à Alt + 0156","Un œuf"],
               ["La lumière","L'obscurité","Des réactions inouïes","Une leçon","Un reçu","La fête","Une bête","Le théâtre","Un château","Affûter son esprit","Le maçon rénove la façade","Xavier aime les glaçons","Un commerçant soupçonneux","La piqûre de la guêpe"],
